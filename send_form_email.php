@@ -82,14 +82,14 @@
       <body>
         <section class="center header header-full-image header-half-height">
           <div>
-            <h1><a href="index.html">Blog to Book</a></h1>
+            <h1><a href="home.html">Blog to Book</a></h1>
             <!-- <h4 class="description">Transform your online writings into a timeless book</h4> -->
           </div>
         </section>
         <div class="error-pg">
           <h3>Please correct the following error:</h3>
           <h4><?php echo $myError; ?></h4>
-          <a href="index.html#getstarted">Go Back</a>
+          <a href="home.html#getstarted">Go Back</a>
         </div>
       </body>
     </html>
