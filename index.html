@@ -1,0 +1,156 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Muli:400,400italic,300italic,300' rel='stylesheet' type='text/css'> -->
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+
+    <nav class="nav-right" id="top">
+      <ul>
+        <!-- <li><a href="">blog</a></li> -->
+        <li><a href="#pricing">pricing</a></li>
+        <li><a href="#howitworks">questions</a></li>
+        <li><a href="#getstarted">get started</a></li>
+      </ul>
+    </nav>
+
+    <section class="center header header-full-image">
+      <div>
+        <h1><a href="index.html">Blog to Book</a></h1>
+        <h4 class="description">Transform your online writings into a timeless book</h4>
+      </div>
+    </section>
+
+    <section class="narrow-section" id="howitworks">
+      <div>
+        <h2>How does it work?</h2>
+        <ul>
+          <li>You have a website with posts, articles, etc.</li>
+          <li>You give us some info</li>
+          <li>We take your writings and format it into a book</li>
+          <li>We handle all the editing and formatting, so you don't have to. If we have any questions, we will email you</li>
+          <li>It is then sent to blurb.com to be printed</li>
+          <li>Your finished book is shipped to you and will be in your hands within a couple weeks!</li>
+          <li>More questions? feel free to <a href="">contact us!</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="narrow-section" id="pricing">
+      <div>
+        <h2>Pricing</h2>
+        <ul>
+          <li>30-50 pages for $30 (must have at least 30 pages)</li>
+          <!-- <li>Each additonal 10 pages is +$5 (eg. it's $40 for 50 pages)</li> -->
+          <li>All options come in books sized 5x7 with colored pages and a white cover (We will have more options in the future).</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr>
+
+
+    <section class="section-images center">
+      <div>
+        <h2>Book Example</h2>
+        <h4 class="description">PonderSimple.com created a small 30 page book from their blog. Here is what they have to say about it.</h4>
+        <div class="quote">
+          <h5>"My book came out great. It feels quality, like it will last a long time. I wanted to turn my blog into a book so I can look back on my life and see what I was learning, and share with my friends and family."</h5>
+          <h6>Chris Hume from <a href="http://www.pondersimple.com" target="_blank">pondersimple.com</a></h6>
+        </div>
+        <div class="img-half">
+          <div class="img-container"><img src="images/IMG_1215.jpg"></div>
+        </div>
+        <div class="img-half">
+          <div class="img-container"><img src="images/IMG_1216.jpg"></div>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+
+    <section class="narrow-section" id="getstarted">
+      <div>
+      <h2 class="center">Get your book started now!</h2>
+      <form class="email form-center" action="send_form_email.php" method="post">
+        <label>What is your name?</label>
+        <input type="text" name="name" placeholder="eg. Bob Jones" required/>
+        <label>What is your e-mail?</label>
+        <input type="text" name="email" placeholder="eg. bobjones@gmail.com" required/>
+        <label>What is your blog url? eg.mysite.com</label>
+        <input type="text" name="url" placeholder="eg. bobjones.com" required/>
+
+        <label>How many do you want to order?</label>
+        <input type="number" name="ordercount" placeholder="2" required/>
+
+        <!-- <p>Message:</p>
+        <textarea name="message"></textarea></p> -->
+        <!-- <h3>Select dates to print (Keep in mind the number of pages increases costs)</h3> -->
+
+        <p>First, pick a starting place for your book. Then choose the number of pages you want to fill up. We will take your writings from that date and go post to post until the pages are all filled up. If you want 30 pages, and your post needs to extend to 31 pages, you will get that page for free.</p>
+        <p>For example, say you want to get posts starting from March 2016 and only want to spend $50. Enter March 2016, then put 50 as the page count.</p>
+        <label>Start Date</label>
+        <input type="date" name="startdate" required>
+
+        <label>How many pages would you like?</label>
+        <input type="number" name="pagecount" placeholder="eg. 50" min="30" max="50" required/>
+
+        <!-- <label>Any special requests?</label>
+        <input type="text" name="subject" placeholder="eg."/> -->
+
+        
+        <!-- <label>End Date</label> -->
+        <!-- <input type="date" name="end"> -->
+
+        <input class="send-btn" type="submit" value="Send">
+      </form>
+
+        <!-- <form name="contactform" method="post" submit="send_form_email.php">
+          <input placeholder="What is your name?" type="text">
+          <input placeholder="What is your email?" type="email">
+          <input placeholder="What is your blog url? eg. mysite.com" type="website">
+          <h3>Select dates to print (Keep in mind the number of pages increases costs)</h3>
+          <label>Start Date</label>
+          <input type="date" name="start">
+          <label>End Date</label>
+          <input type="date" name="end">
+
+          <button type="submit">submit</button>
+        </form>
+         -->
+        <!-- <form action="/charge" method="POST">
+          <script
+            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="pk_test_PhxW8hKuuX9B74ebpE3E8G1q"
+            data-amount="2000"
+            data-name="Demo Site"
+            data-description="2 widgets"
+            data-image="/img/documentation/checkout/marketplace.png"
+            data-zip-code="true"
+            data-email=""
+            data-locale="auto">
+          </script>
+        </form> -->
+      </div>
+    </section>
+
+    <hr>
+   
+
+    
+
+     <section class="narrow-section center">
+      <div>
+        <h2>Questions</h2>
+        <h4>Feel free to <a href="">contact us</a> and ask any questions, we are here for you.</h4>
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <div class="back-to-top"><a href="#top">top</a></div>
+
+  </body>
+</html>
