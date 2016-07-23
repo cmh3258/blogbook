@@ -6,9 +6,9 @@
   $name = check_input($_POST['name'], "Enter your name");
   $email = check_input($_POST['email'], "Enter your email");
   $url = check_input($_POST['url'], "Enter your url");
-  $ordercount = check_input($_POST['ordercount'], "Enter your book quantity");
-  $startdate = check_input($_POST['startdate'], "Enter your start date");
-  $pagecount = check_input($_POST['pagecount'], "Enter your page quantity");
+  // $ordercount = check_input($_POST['ordercount'], "Enter your book quantity");
+  // $startdate = check_input($_POST['startdate'], "Enter your start date");
+  // $pagecount = check_input($_POST['pagecount'], "Enter your page quantity");
 
   /* If e-mail is not valid show error message */
   if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
