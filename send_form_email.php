@@ -5,7 +5,7 @@
   /* Check all form inputs using check_input function */
   $name = check_input($_POST['name'], "Enter your name");
   $email = check_input($_POST['email'], "Enter your email");
-  $url = check_input($_POST['url'], "Enter your url");
+  // $url = check_input($_POST['url'], "Enter your url");
   // $ordercount = check_input($_POST['ordercount'], "Enter your book quantity");
   // $startdate = check_input($_POST['startdate'], "Enter your start date");
   // $pagecount = check_input($_POST['pagecount'], "Enter your page quantity");
@@ -23,11 +23,7 @@
   Subject: 'book order'
 
   Message:
-  $url
-  $ordercount
-  $startdate
-  $pagecount
-
+  'I want to chat about a book.'
   ";
 
   
