@@ -29,7 +29,9 @@
   
 
   /* Send the message using mail() function */
-  mail($myemail, $subject, $message);
+  if(mail($myemail, 'yourblogbook order!', $message)){
+    show_error("Mail not sent.");
+  }
 
   // get_price($pagecount, $ordercount);
 
