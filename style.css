@@ -49,6 +49,9 @@ li{
 }
 
 
+.orange-color{
+  color:#ff340f;
+}
 
 section{
   padding: 2em;
@@ -215,6 +218,12 @@ label{
   margin-bottom: 2em;
   margin-top: 2em;
   border-radius: 4px;
+}
+
+.profilepic{
+  border-radius: 100%;
+  width: 5em;
+  height: 5em;
 }
 
 
